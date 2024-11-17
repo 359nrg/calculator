@@ -1,0 +1,63 @@
+section {
+    margin-top: 100px;
+}
+.numbers {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 15px 15px;
+}
+
+.result__wrapper {
+    display: block;
+    width: 110px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: auto;
+    padding-right: 2px;
+}
+
+.first__field {
+    height: 18.5px;
+    
+    text-align: end;
+}
+.operation__field {
+    height: 18.5px;
+    text-align: end;
+}
+.second__field {
+    height: 18.5px;
+    text-align: end;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.operations__wrapper {
+    display: block;
+    margin-top: 85px;
+}
+.drop__button {
+    width: 160px;
+}
+.result__button {
+    width: 160px;
+}
+.finish__wrapper {
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding-left: 5px;
+}
