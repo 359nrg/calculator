@@ -241,7 +241,7 @@ Vbtn.addEventListener('click', function enterV() {
         console.log('a =')
         console.log(parseInt(a))
         if (a === 10) {
-            resultfield.innerText = 'X';
+            enterfield.innerText = 'X';
         }
     }
     roman = true;
