@@ -299,6 +299,11 @@ resultbtn.addEventListener('click', function result() {
         enterfield.innerText = '=' + ' ' + ((c + parseInt(a)) / parseInt(b))
         c = (c + parseInt(a)) / parseInt(b)
     }
+    if (operation === '/' && b === 0) {
+        enterfield.innerText = 'На ноль делить нельзя'
+        c = 0;
+        console.log('ноль')
+    }
     console.log(roman)
     if (roman === true) {
         if (c === 2) {
