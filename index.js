@@ -36,20 +36,34 @@ let a = 0;
 let b = 0;
 let c = 0;
 let operation = null;
+let number = '1';
+//test//
+/* onebtn.addEventListener('click', function enter(number) {
+    if (operation !== null) {
+        resultfield.innerText = resultfield.innerText + number;
+        b = b + parseInt(number);
+        console.log('b =' , b)
+        console.log(parseInt(b))
+    } else {
+        enterfield.innerText = enterfield.innerText + number;
+        a = a + parseInt(number);
+        console.log('a =' , a)
+        console.log(parseInt(a))
+    }
+    
+}) */
 
 //numbers-buttons//
 onebtn.addEventListener('click', function enterone() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '1';
         b = b + '1';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '1';
         a = a + '1';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -57,14 +71,12 @@ twobtn.addEventListener('click', function entertwo() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '2';
         b = b + '2';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '2';
         a = a + '2';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -72,14 +84,12 @@ threebtn.addEventListener('click', function enterthree() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '3';
         b = b + '3';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '3';
         a = a + '3';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -87,14 +97,12 @@ fourbtn.addEventListener('click', function enterfour() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '4';
         b = b + '4';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '4';
         a = a + '4';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -102,14 +110,12 @@ fivebtn.addEventListener('click', function enterfive() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '5';
         b = b + '5';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '5';
         a = a + '5';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -117,14 +123,12 @@ sixbtn.addEventListener('click', function entersix() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '6';
         b = b + '6';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '6';
         a = a + '6';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -132,14 +136,12 @@ sevenbtn.addEventListener('click', function enterseven() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '7';
         b = b + '7';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '7';
         a = a + '7';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -147,14 +149,12 @@ eightbtn.addEventListener('click', function entereight() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '8';
         b = b + '8';
-        console.log('b =')
-        console.log(b)
+        console.log('b =' , b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '8';
         a = a + '8';
-        console.log('a =')
-        console.log(a)
+        console.log('a =' , a)
         console.log(parseInt(a))
     }
 })
@@ -162,14 +162,12 @@ ninebtn.addEventListener('click', function enternine() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '9';
         b = b + '9';
-        console.log('b =')
-        console.log(b)
+        console.log('b =', b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '9';
         a = a + '9';
-        console.log('a =')
-        console.log(a)
+        console.log('a =', a)
         console.log(parseInt(a))
     }
 })
@@ -177,14 +175,12 @@ zerobtn.addEventListener('click', function enterzero() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + '0';
         b = b + '0';
-        console.log('b =')
-        console.log(b)
+        console.log('b =', b)
         console.log(parseInt(b))
     } else {
         enterfield.innerText = enterfield.innerText + '0';
         a = a + '0';
-        console.log('a =')
-        console.log(a)
+        console.log('a =', a)
         console.log(parseInt(a))
     }
 })
@@ -192,8 +188,7 @@ Ibtn.addEventListener('click', function enterI() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + 'I';
         b = b + i;
-        console.log('b =')
-        console.log(parseInt(b))
+        console.log('b =', b)
         if (b === 4) {
             resultfield.innerText = 'IV';
         }
@@ -209,8 +204,7 @@ Ibtn.addEventListener('click', function enterI() {
     } else {
         enterfield.innerText = enterfield.innerText + 'I';
         a = a + i;
-        console.log('a =')
-        console.log(parseInt(a))
+        console.log('a =', a)
     }
     if (a === 4) {
         enterfield.innerText = 'IV';
@@ -230,16 +224,14 @@ Vbtn.addEventListener('click', function enterV() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + 'V';
         b = b + v;
-        console.log('b =')
-        console.log(parseInt(b))
+        console.log('b =', b)
         if (b === 10) {
             resultfield.innerText = 'X';
         }
     } else {
         enterfield.innerText = enterfield.innerText + 'V';
         a = a + v;
-        console.log('a =')
-        console.log(parseInt(a))
+        console.log('a =', a)
         if (a === 10) {
             enterfield.innerText = 'X';
         }
@@ -250,21 +242,24 @@ Xbtn.addEventListener('click', function enterX() {
     if (operation !== null) {
         resultfield.innerText = resultfield.innerText + 'X';
         b = b + x;
-        console.log('b =')
-        console.log(parseInt(b))
+        console.log('b =' , b)
     } else {
         enterfield.innerText = enterfield.innerText + 'X';
         a = a + x;
-        console.log('a =')
-        console.log(parseInt(a))
+        console.log('a =', a)
     }
     roman = true;
 })
 //operation-buttons//
 plusbtn.addEventListener('click', function plus() {
-    operation = '+'
-    console.log(operation);
-    operationfield.innerText = '+'
+    if (c !== 0) {
+        operation = '+'
+        console.log(operation);
+        operationfield.innerText = '+'
+    } else {
+        enterfield.innerText = '0'
+        console.log( 'c =' , c)
+    }
 })
 minusbtn.addEventListener('click', function minus() {
     operation = '-'
@@ -283,6 +278,7 @@ dividebtn.addEventListener('click', function divide() {
 })
 //result-buttons//
 resultbtn.addEventListener('click', function result() {
+
     if (operation === '+') {
         enterfield.innerText = '=' + ' ' + (c + parseInt(a) + parseInt(b))
         c = c + parseInt(a) + parseInt(b)
@@ -299,12 +295,13 @@ resultbtn.addEventListener('click', function result() {
         enterfield.innerText = '=' + ' ' + ((c + parseInt(a)) / parseInt(b))
         c = (c + parseInt(a)) / parseInt(b)
     }
-    if (operation === '/' && b === 0) {
-        enterfield.innerText = 'На ноль делить нельзя'
+    if ((operation === '/') & (parseInt(b) === 0 )) {
+        enterfield.innerText = 'На ноль делить нельзя';
+        console.log(c)
         c = 0;
         console.log('ноль')
     }
-    console.log(roman)
+    console.log('roman =', roman)
     if (roman === true) {
         if (c === 2) {
             enterfield.innerText = '=' + ' ' + 'II';
@@ -338,8 +335,7 @@ resultbtn.addEventListener('click', function result() {
     b = 0;
     resultfield.innerText = null;
     operationfield.innerText = null;
-    console.log('c =')
-    console.log(c)
+    console.log('c =' , c)
 })
 dropbtn.addEventListener('click', function drop() {
     a = 0;
@@ -352,6 +348,15 @@ dropbtn.addEventListener('click', function drop() {
     resultfield.innerText = null;
     console.log('Сброс')
 })
+
+/*  problems : 
+1) zero divide
+2) hash map
+3) design
+4) functions remaster
+5) roman remaster
+6) auto zero if null
+ */
 
 
 
