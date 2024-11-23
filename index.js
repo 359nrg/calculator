@@ -25,6 +25,7 @@ const resultfield = document.querySelector('.second__field');
 const dropbtn = document.querySelector('.drop__button');
 const resultbtn = document.querySelector('.result__button');
 //roman//
+
 const i = 1;
 const iv = 4;
 const v = 5;
@@ -36,23 +37,9 @@ let a = 0;
 let b = 0;
 let c = 0;
 let operation = null;
+resultfield.innerText = null;
+enterfield.innerText = null;
 let number = '1';
-//test//
-/* onebtn.addEventListener('click', function enter(number) {
-    if (operation !== null) {
-        resultfield.innerText = resultfield.innerText + number;
-        b = b + parseInt(number);
-        console.log('b =' , b)
-        console.log(parseInt(b))
-    } else {
-        enterfield.innerText = enterfield.innerText + number;
-        a = a + parseInt(number);
-        console.log('a =' , a)
-        console.log(parseInt(a))
-    }
-    
-}) */
-
 //numbers-buttons//
 onebtn.addEventListener('click', function enterone() {
     if (operation !== null) {
@@ -252,14 +239,9 @@ Xbtn.addEventListener('click', function enterX() {
 })
 //operation-buttons//
 plusbtn.addEventListener('click', function plus() {
-    if (c !== 0) {
-        operation = '+'
-        console.log(operation);
-        operationfield.innerText = '+'
-    } else {
-        enterfield.innerText = '0'
-        console.log( 'c =' , c)
-    }
+    operation = '+'
+    console.log(operation);
+    operationfield.innerText = '+'
 })
 minusbtn.addEventListener('click', function minus() {
     operation = '-'
